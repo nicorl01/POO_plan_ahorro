@@ -208,7 +208,7 @@ class AplicacionFinanzas:
                 messagebox.showinfo("Éxito", "Usuario registrado correctamente")
         else:
             messagebox.showerror("Error", "Ingrese un ID y contraseña válidos")
-    # Resto del código...
+    
     def registrar_ingreso(self):
         try:
             monto = simpledialog.askfloat("Registrar Ingreso", "Ingrese el monto del ingreso:")
